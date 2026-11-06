@@ -1,0 +1,31 @@
+{
+  "name": "top-battleship-project",
+  "version": "1.0.0",
+  "description": "working on building out battleship for TOP",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsmit1993/top-battleship-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsmit1993/top-battleship-project/issues"
+  },
+  "homepage": "https://github.com/jsmit1993/top-battleship-project#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.29.7",
+    "@types/jest": "^30.0.0",
+    "babel-jest": "^30.5.2",
+    "html-webpack-plugin": "^5.6.8",
+    "jest": "^30.5.2",
+    "webpack": "^5.112.2",
+    "webpack-cli": "^7.3.1"
+  }
+}
